@@ -1,0 +1,439 @@
+button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 30px;
+    background: rgb(255, 215, 215);
+}
+.banner .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.banner .left .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 47, 64);
+    font-size: 2rem;
+}
+.banner .left .conv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(82, 82, 82);
+}
+.banner .left .conv img{
+    width: 2rem;
+}
+.banner .left .conv p{
+    width: 70%;
+}
+.banner .left .buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.banner .left .buttons button{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+.banner .left .buttons button img{
+    width: 1.5rem;
+}
+.banner .left .buttons button:first-child{
+    background: rgb(236, 37, 54);
+    color: white;
+    font-weight: 500;
+}
+.banner .left .buttons button:last-child{
+    background: none;
+    font-weight: 500;
+    border: solid rgb(233, 79, 79) 1px;
+}
+.banner .right img{
+    width: 30rem;
+}
+.bottom{
+    margin: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background: rgb(255, 248, 248);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.164);
+}
+.bottom .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    gap: 5px;
+}
+.bottom .card img{
+    width: 3rem;
+}
+.bottom .card .context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.bottom .card .context h2{
+    color: rgb(41, 41, 41);
+}
+.bottom .card .context p{
+    font-size: 0.7rem;
+    color: rgb(82, 82, 82);
+}
+.offers-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+}
+.offers-title .left-offer{
+    width: 20%;
+}
+.offers-title .left-offer h1{
+    color: rgb(41, 41, 41);
+}
+.offers-title .left-offer h1 span{
+    color: rgb(236, 37, 54);
+}
+.offers-title .right-offer{
+    width: 30%;
+}
+.offers-title .right-offer p{
+    color: rgb(82, 82, 82);
+}
+.offers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.offers .offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(82, 82, 82, 0.253);
+}
+.offers .offer img{
+    width: 10rem;
+}
+.offers .offer .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.offers .offer .text h1{
+    font-size: 1.3rem;
+}
+.offers .offer .text a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(236, 37, 54);
+}
+.offers .offer .text a img{
+    width: 1.2rem;
+}
+.menu{
+    margin: 15px;
+    padding: 10px;
+}
+.menu-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title .menu-title-left{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.menu-title .menu-title-left h1{
+    color: rgb(36, 35, 35);
+}
+.menu-title .menu-title-left h1 span{
+    color:  rgb(236, 37, 54);
+}
+.menu-title .menu-title-left p{
+    color: rgb(36, 35, 35);
+    font-weight: 500;
+    width: 60%;
+}
+.menu-title .menu-title-right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.menu-title .menu-title-right a{
+    margin-right: 5rem;
+    color: white;
+    text-decoration: none;
+    background: rgb(236, 37, 54);
+    padding: 10px;
+    font-weight: 500;
+    width: 10rem;
+    text-align: center;
+    border-radius: 16px;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.menu-format{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(252, 201, 201, 0.658);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.185);
+}
+.menu-format .food-pic{
+    width: 11rem;
+    border: 8px solid rgb(236, 37, 54);
+    border-radius: 50%;
+}
+.menu-format h1{
+    width: 100%;
+    font-size: 1.3rem;
+    color: rgb(36, 35, 35);
+}
+.menu-format .rate{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.menu-format .rate img{
+    width: 2rem;
+}
+.menu-format .rate p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: rgb(49, 49, 49);
+}
+.menu-format .price-buy{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-format .price-buy p{
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+    font-size: 1.4rem;
+}
+.menu-format .price-buy button{
+    padding: 10px;
+    background: rgb(236, 37, 54);
+    border: 0;
+    color: white;
+    width: 7rem;
+    border-radius: 20px;
+}
+.hero{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+.left-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-hero img{
+    width: 30rem;
+    border-radius: 20px;
+}
+.right-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.right-hero img{
+    width: 20rem;
+    border-radius: 20px;
+}
+
+@media (max-width: 1028px){
+    .banner{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bottom .card{
+        width: 100%;
+    }
+    .offers{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .offers-title .left-offer{
+        width: 40%;
+    }
+    .offers-title .right-offer{
+        width: 40%;
+    }
+    .menu{
+        margin: 10px;
+    }
+    .menu-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menu-format{
+        width: 100%;
+        padding: 5px;
+    }
+    .menu-format .food-pic {
+        width: 8rem;
+    }
+    .menu-format h1{
+        font-size: 1rem;
+    }
+    .menu-format .price-buy button{
+        font-size: 0.7rem;
+        width: 5rem;
+    }
+    .menu-format .price-buy p{
+        font-size: 1.2rem;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero .left-hero img{
+        width: 100%;
+    }
+    .hero .right-hero img{
+        width: 70%;
+    }
+}
+@media (max-width: 600px){
+    .banner{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .banner .left .title h1{
+        font-size: 2.5rem;
+    }
+    .banner .left .buttons button{
+        padding: 5px;
+        height: 3rem;
+        font-size: 0.7rem;
+    }
+    .banner .right img{
+        width: 20rem;
+    }
+    .bottom{
+        margin: 10px;
+    }
+    .bottom .card{
+        width: 100%;
+    }
+    .offers{
+        grid-template-columns: 1fr 1fr;
+    }
+    .offers .offer img{
+        width: 8rem;
+    }
+    .offers .offer .text h1{
+        font-size: 1.1rem;
+    }
+    .offers-title .left-offer h1{
+        font-size: 1.5rem;
+    }
+    .offers-title .right-offer p{
+        font-size: 0.8rem;
+    }
+    .menu-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu-title .menu-title-left{
+        width: 50%;
+    }
+    .menu-title .menu-title-left h1{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .menu-title .menu-title-left p{
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    .menu-title .menu-title-right{
+        width: 50%;
+    }
+    .menu-title .menu-title-right a{
+        margin-right: 0;
+        width: 8rem;
+    }
+    .menu{
+        margin: 5px;
+    }
+    .menu-container{
+        padding: 5px;
+    }
+    .menu-format{
+        width: 100%;
+        padding: 10px;
+    }
+    .hero .left-hero img{
+        width: 100%;
+    }
+    .hero .right-hero img{
+        width: 100%;
+    }
+
+}
